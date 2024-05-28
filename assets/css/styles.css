@@ -19,20 +19,23 @@ h1 {
 h2 {
   font-size: 3.5rem;
   color: white;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 3rem;
   color: white;
+  font-weight: 400;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   color: white;
+  font-weight: 400;
 }
 
 h5 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -40,8 +43,9 @@ h6 {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: white;
+  font-weight: 400;
 }
 
 /*Navigation*/
@@ -258,7 +262,6 @@ nav i {
 }
 
 .info-container {
-  flex-direction: column;
   text-align: start;
 }
 
@@ -266,20 +269,23 @@ nav i {
   background-color: #04050480;
   padding: 50px 10px;
   border-radius: 10px;
-  flex-direction: column;
 }
 
 .info-container div {
   display: flex;
   gap: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   align-items: baseline;
   text-align: start;
 }
 
-.info-container img {
-  width: 60px;
-  height: 60px;
+.info-container div:not(:nth-child(4)) {
+  margin-bottom: 30px;
+}
+
+.info-container figure {
+  display: flex;
+  justify-content: center;
 }
 
 .info img {
@@ -287,13 +293,69 @@ nav i {
   height: 40%;
 }
 
+.info-container img {
+  width: 42%;
+  height: 42%;
+  display: flex;
+  align-items: center;
+}
+
 .info-container h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+/*Section [Much more]*/
+.much-more {
+  width: 100%;
+  background-color: black;
   text-align: center;
 }
 
-/*Section [name]*/
+.much-more h5 {
+  font-weight: 200;
+  font-style: italic;
+  padding-bottom: 40px;
+}
 
-/*Section [name]*/
+.much-more h2 {
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+/*Section [Core values]*/
+.core-values {
+  width: 100%;
+  height: 720px;
+  background-color: #aed8e5;
+}
+
+.core-values img {
+  width: 65%;
+}
+
+.core-values figure {
+  position: relative;
+  bottom: 458px;
+  left: 109px;
+}
+
+.core-values ul {
+  margin-left: 60px;
+}
+
+.core-values ul li {
+  font-size: 1.3rem;
+  list-style: none;
+  color: black;
+}
+
+.core-values p {
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 600;
+}
 
 /*Section [name]*/
 
