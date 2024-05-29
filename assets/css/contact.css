@@ -1,13 +1,85 @@
-/*Section [Hero]*/
+/*Section [Navigation gallery]*/
+.nav-links li:nth-child(4) a {
+  color: #c97919;
+}
 
-/*Section [name]*/
+.nav-links li:nth-child(1) a {
+  color: black;
+}
 
-/*Section [name]*/
+/*Section [Contact form]*/
+.contact-form {
+  width: 100%;
+  height: auto;
+  background-color: #c97919;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+}
 
-/*Section [name]*/
+.contact-form form {
+  width: 38%;
+  background-color: #0405047d;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 15px;
+}
 
-/*Section [name]*/
+.contact-form input {
+  width: 45%;
+  height: 35px;
+  border-radius: 25px;
+  margin-left: 70px;
+  margin-bottom: 5px;
+  border: none;
+  font-size: 1.5rem;
+  padding-left: 8px;
+}
 
-/*Section [name]*/
+.contact-form span {
+  font-size: 1.6rem;
+  margin: 3px 0 2px 0;
+  color: white;
+  margin-left: 70px;
+}
+
+.contact-form textarea {
+  margin-left: 70px;
+  width: 58%;
+  height: 110px;
+  border-radius: 25px;
+  margin-bottom: auto;
+  border: none;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin: 42px 0 10px 0;
+}
+
+.message-submit-flex {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.contact-form button {
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.contact-form button:hover {
+  color: #ff9d26;
+  transition: all 200ms ease-in-out;
+}
 
 /*Responsive*/

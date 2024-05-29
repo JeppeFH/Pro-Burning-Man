@@ -1,3 +1,12 @@
+/*Section [Navigation gallery]*/
+.nav-links li:nth-child(3) a {
+  color: #c97919;
+}
+
+.nav-links li:nth-child(1) a {
+  color: black;
+}
+
 /*Section [name]*/
 
 /*Section [name]*/

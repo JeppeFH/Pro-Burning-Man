@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <section class="navigation">
       <nav>
-        <a class="logo" href="#"
+        <a class="logo" href="index.html"
           ><img src="/assets/img/logo med baggrund.png" alt="logo" />Burning
           Man</a
         >
@@ -47,13 +47,54 @@
     </section>
 
     <!-- Section [Contact form] -->
-
-    <!-- Section [name] -->
-
-    <!-- Section [name] -->
-
-    <!-- Section [name] -->
+    <section class="contact-form">
+      <form>
+        <h2>Kontakt os</h2>
+        <span>Navn</span>
+        <input type="text" name="name" required min="2" />
+        <span>E-mail</span>
+        <input type="email" name="email" required />
+        <span>Emne</span>
+        <input type="text" name="subject" required min="2" />
+        <span>Besked</span>
+        <section class="message-submit-flex">
+          <textarea id="message" name="message" min="10" required></textarea>
+          <button type="submit">Indsend</button>
+        </section>
+      </form>
+    </section>
 
     <!-- Footer -->
+    <footer>
+      <section class="footer-container">
+        <header>
+          <img src="/assets/img/logo med baggrund.png" alt="logo footer" />
+          <a href="#">TERMS OF SERVICE</a>
+          <a href="#">PRIVACY POLICY</a>
+          <p>© 1989-2024 BURNING MAN PROJEKT</p>
+        </header>
+
+        <section class="footer-nav">
+          <a href="#">DONÉR</a>
+          <a href="contact.html">KONTAKT</a>
+        </section>
+
+        <section class="get-in-touch">
+          <figure>
+            <p>FØLG OS</p>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </figure>
+
+          <form>
+            <p>SUBCRIBE TIL OS HER</p>
+            <input type="text" placeholder="Navn" required minlength="2" />
+            <input type="email" placeholder="E-mail" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>
