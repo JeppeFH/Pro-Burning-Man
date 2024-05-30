@@ -17,23 +17,27 @@ burgerMenuClose.addEventListener("click", () => {
 
 /*Billing ticket amount*/
 document.addEventListener("DOMContentLoaded", (event) => {
-  const amountNumberElement = document.querySelector(".amountNumber");
-  const amountPositiv = document.querySelector(".amountPositiv");
-  const amountNegativ = document.querySelector(".amountNegativ");
+  const tickets = document.querySelectorAll(".ticket");
 
-  let amount = 0;
+  tickets.forEach((ticket) => {
+    const amountNumber = ticket.querySelector(".amountNumber");
+    const amountPositiv = ticket.querySelector(".amountPositiv");
+    const amountNegativ = ticket.querySelector(".amountNegativ");
 
-  amountPositiv.addEventListener("click", () => {
-    if (amount < 10) {
-      amount += 1;
-      amountNumberElement.textContent = amount;
-    }
-  });
+    let amount = 0;
 
-  amountNegativ.addEventListener("click", () => {
-    if (amount > 0) {
-      amount -= 1;
-      amountNumberElement.textContent = amount;
-    }
+    amountPositiv.addEventListener("click", () => {
+      if (amount < 10) {
+        amount += 1;
+        amountNumber.textContent = amount;
+      }
+    });
+
+    amountNegativ.addEventListener("click", () => {
+      if (amount > 0) {
+        amount -= 1;
+        amountNumber.textContent = amount;
+      }
+    });
   });
 });
