@@ -403,6 +403,27 @@ nav i {
   font-weight: 600;
 }
 
+.core-values div {
+  position: relative;
+  top: 75px;
+  left: 85px;
+  text-align: center;
+}
+
+.core-values video {
+  width: 35%;
+  height: 20%;
+  margin-bottom: 50px;
+}
+
+.core-values h6 {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 400;
+  top: 75px;
+  left: 0px;
+}
+
 /*Footer*/
 footer {
   width: 100%;
