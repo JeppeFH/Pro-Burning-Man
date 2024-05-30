@@ -7,6 +7,10 @@
   color: black;
 }
 
+.nav-links li:nth-child(1) a:hover {
+  color: #c97919;
+}
+
 /*Section [Gallery Hero]*/
 .gallery-hero {
   max-width: 100%;
