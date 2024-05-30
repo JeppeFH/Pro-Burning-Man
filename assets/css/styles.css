@@ -241,7 +241,8 @@ nav i {
   text-align: center;
 }
 
-.btn-fire {
+.btn-fire,
+.contact-form button {
   background-color: black;
   width: 130px;
   height: 50px;
@@ -258,7 +259,8 @@ nav i {
   text-decoration: none;
 }
 
-.btn-fire::before {
+.btn-fire::before,
+.contact-form button::before {
   content: "";
   position: absolute;
   background: url(/assets/img/fire.gif);
@@ -272,7 +274,8 @@ nav i {
   transition: all 250ms ease-in-out;
 }
 
-.btn-fire:hover::before {
+.btn-fire:hover::before,
+.contact-form button:hover::before {
   opacity: 1;
 }
 
