@@ -14,3 +14,26 @@ burgerMenuClose.addEventListener("click", () => {
   burgerMenuOpen.classList.remove("active");
   burgerMenuClose.classList.remove("active");
 });
+
+/*Billing ticket amount*/
+document.addEventListener("DOMContentLoaded", (event) => {
+  const amountNumberElement = document.querySelector(".amountNumber");
+  const amountPositiv = document.querySelector(".amountPositiv");
+  const amountNegativ = document.querySelector(".amountNegativ");
+
+  let amount = 0;
+
+  amountPositiv.addEventListener("click", () => {
+    if (amount < 10) {
+      amount += 1;
+      amountNumberElement.textContent = amount;
+    }
+  });
+
+  amountNegativ.addEventListener("click", () => {
+    if (amount > 0) {
+      amount -= 1;
+      amountNumberElement.textContent = amount;
+    }
+  });
+});

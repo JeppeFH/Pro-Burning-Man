@@ -12,15 +12,20 @@
 }
 
 /*Section [Limited edition]*/
-.tickets-limited-edition {
+.billing {
   width: 100%;
   height: auto;
-  margin: 0 auto;
   text-align: center;
   background-color: #c97919;
+  padding-bottom: 100px;
 }
 
-.tickets-limited-edition header {
+.billing-container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.billing header {
   width: 330px;
   background-color: black;
   border-radius: 30px;
@@ -32,17 +37,20 @@
   margin-bottom: 20px;
 }
 
-.tickets-limited-edition header h3 {
+.billing header h3 {
   font-size: 4.1rem;
   font-weight: bold;
   margin-left: 55px;
+  line-height: 1.1;
 }
 
-.tickets-limited-edition h2 {
+.billing h2 {
+  padding-top: 40px;
   margin-bottom: 20px;
+  font-size: 4rem;
 }
 
-.tickets-limited-edition header img:last-child {
+.billing header img:last-child {
   width: 30%;
   height: 30%;
   position: relative;
@@ -50,15 +58,99 @@
   bottom: 40px;
 }
 
-.tickets-limited-edition header img:first-child {
+.billing header img:first-child {
   position: relative;
   width: 60%;
   height: 60%;
   right: 10px;
 }
 
-/*Section [name]*/
+/*Ticket*/
+.ticket {
+  background-color: white;
+  width: 250px;
+  height: auto;
+}
 
-/*Section [name]*/
+.ticket:hover {
+  transform: scale(1.04, 1.04);
+  transition: all 250ms ease-in-out;
+}
+
+.ticket h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.ticket h5 {
+  color: black;
+}
+
+.ticket h5:nth-child(12) {
+  margin-bottom: 20px;
+}
+
+.ticket a {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  color: black;
+}
+
+.tickets a:hover {
+  color: rgb(56, 56, 56);
+}
+
+.ticket p {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.ticket p:nth-child(10) {
+  margin-bottom: 40px;
+}
+
+.ticketAmount {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  align-items: center;
+  gap: 6px;
+}
+
+.ticketAmount span {
+  font-size: 2.6rem;
+  font-weight: 300;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ticketAmount span:hover {
+  background-color: #c97919;
+  transition: all 200ms ease-in-out;
+}
+
+.ticketAmount label {
+  font-size: 1.8rem;
+}
+
+/*Section [Sale tickets]*/
+.ticket-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+}
+
+.newsletter h2 {
+  font-size: 4rem;
+}
+
+/*Section [Newsletter]*/
 
 /*Responsive*/
