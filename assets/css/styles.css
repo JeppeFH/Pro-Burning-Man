@@ -533,4 +533,50 @@ footer {
   cursor: pointer;
 }
 
+/*Section [Festival article]*/
+.festival-article {
+  width: 100%;
+  height: auto;
+  background-color: #fdbd34;
+}
+
+.article-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: fit-content;
+}
+
+.article-container article {
+  width: 100%;
+  column-count: 2;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  gap: 60px;
+}
+
+.article-container h3 {
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+  padding: 40px 0 10px 0;
+}
+
+.article-container p {
+  font-size: 1.4rem;
+  color: black;
+}
+
+.article-container p:nth-child(9),
+.article-container p:nth-child(19),
+.article-container p:nth-child(35),
+.article-container p:nth-child(42) {
+  margin-bottom: 20px;
+}
+
+.article-container .btn-fire {
+  margin: 0 auto;
+  border: none;
+}
+
 /*Responsive*/
